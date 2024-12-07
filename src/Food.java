@@ -12,7 +12,7 @@ public abstract class Food {
     public abstract String getIcon();
 
     public static Food randomFood(Position position) {
-        int maxActiveFoodItems = 3; // Represents the number of food items
+        int maxActiveFoodItems = 4; // Represents the number of food items
 
         int randomNumber = new Random().nextInt(maxActiveFoodItems);
 
